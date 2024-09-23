@@ -1,0 +1,89 @@
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  
+
+/* Styles for the body and text */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fee2c6aa;
+}
+img {border-radius: 3%;}
+p {
+    border-radius: 3%;
+    background-color: #ffffff;
+    padding: 3%;
+}
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+/* General section padding */
+section {
+    padding: 20px;
+    animation: fadeIn 3s;
+}
+.delayed {animation: fadeIn 4s;}
+/* Introduction section styles */
+.introduction {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+.introduction h2 { 
+    font-style: italic;
+    text-align: center;
+}
+/* Styling the introduction image */
+.introduction img {
+    margin-left: 20px;
+    max-width: 40%;
+    height: auto;
+}
+
+/* Section headers */
+h2 {
+    margin-top: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Photo grid styles */
+.grid {
+    margin: auto;
+    padding: 3%;
+    padding-top: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
+    gap: 1%;
+    align-items:start;
+
+}
+
+/* Ensuring images in grid are responsive */
+.grid img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer styles (empty for now) */
+footer {
+    padding: 1%;
+    background-color: #333;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+    height: auto;
+    text-align: center;
+    font-style: italic;
+    color: #f4f4f4;
+}
